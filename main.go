@@ -15,5 +15,5 @@ func main() {
 		c.String(200, "Hello, From Backend!")
 	})
 
-	r.Run("localhost:8080")
+	r.Run(":8080")
 }
