@@ -16,7 +16,4 @@ jobs:
         run: |
           ls ${{ github.workspace }}
 
-      - name: Run Go Project
-        run: go run main.go
-
       - run: echo "🍏 This job's status is ${{ job.status }}."
